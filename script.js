@@ -3,14 +3,14 @@
 // ===============================================
 
 // Event name
-const eventName = "My Monika Returning Home";
+const eventName = "Fiji Holiday";
 
 // Event date and time (YYYY-MM-DD HH:MM:SS format)
 // You can also use formats like "2025-12-31 23:59:59" or "December 31, 2025 23:59:59"
-const eventDateTime = "2025-08-09 09:30:00";
+const eventDateTime = "2026-10-30 15:15:00";
 
 // Optional: Event image URL (replace with your own image)
-const eventImageUrl = "images/image.png";
+const eventImageUrl = "images/fiji-holiday.png";
 
 // ===============================================
 // COUNTDOWN LOGIC - DO NOT MODIFY UNLESS NEEDED
