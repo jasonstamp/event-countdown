@@ -1,0 +1,18 @@
+{
+  "id": "/event-countdown/",
+  "name": "Event Countdown",
+  "short_name": "Countdown",
+  "description": "A simple countdown to your next event.",
+  "start_url": "/event-countdown/",
+  "scope": "/event-countdown/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#8c1233",
+  "icons": [
+    {
+      "src": "/event-countdown/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
