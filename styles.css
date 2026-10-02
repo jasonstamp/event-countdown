@@ -77,16 +77,18 @@ body {
 }
 
 .time-unit {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    border-radius: 15px;
-    padding: 20px 10px;
+    background: linear-gradient(145deg, #7560dc, #5137ad);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 18px;
+    padding: 19px 8px;
     color: white;
-    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
-    transition: transform 0.2s ease;
+    box-shadow: 0 9px 18px rgba(72, 48, 157, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .time-unit:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 13px 22px rgba(72, 48, 157, 0.32);
 }
 
 .time-value {
@@ -121,8 +123,11 @@ body {
 }
 
 .event-status.upcoming {
-    background: linear-gradient(135deg, #48bb78, #38a169);
-    color: white;
+    background: #fff0e9;
+    border: 1px solid #f6d6c8;
+    color: #884d45;
+    box-shadow: 0 2px 7px rgba(136, 77, 69, 0.08);
+    font-size: 1.05rem;
 }
 
 .event-status.ended {
